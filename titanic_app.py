@@ -34,4 +34,6 @@ fig_age_distribution = px.histogram(data, x='Age', nbins=50, title='Age Distribu
 st.plotly_chart(fig_age_distribution)
 
 fig_age_survival = px.histogram(data, x='Age', color='Survived', nbins=50, title='Age Distribution by Survival Status')
-st.plotly_chart(fig_age_survival)
+st.plotly_chart(fig_age_survival) 
+
+st.markdown('#### The end of the Titanic Project')
